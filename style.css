@@ -290,7 +290,7 @@ footer p {
   background: none;
   box-shadow: none;
 }
-.contentWrapper {
+. {
   padding: 0;
   background: none;
   border: none;
@@ -371,6 +371,13 @@ footer p {
 .contentWrapper > h1,
 #categoryHead > h1 {
   margin-bottom: 2rem;
+}
+.contentWrapper a {
+  text-decoration: underline;
+  text-decoration-color: rgba(68, 68, 68, .3);
+}
+.contentWrapper a:hover {
+  text-decoration-color: rgba(68, 68, 68, 1);
 }
 
 @media (max-width: 768px) {
